@@ -11,6 +11,15 @@
     margin: 0 auto;
     width: 85%;
 }
+.logo{
+    width: 300px;
+    margin-left: 1%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hed{
+    height: 120px;
+}
 /* colori*/
 .bg-card{
     background-color:#0F0E17;
@@ -20,6 +29,9 @@
 }
 .bg-mail{
     color: #0093E7;
+}
+.bg-head{
+    background-color: #7ac6f1;
 }
 /* classi flex*/
 .flex-container {
@@ -45,6 +57,31 @@
     box-shadow: 3px 3px 3px 3px rgb(214, 210, 210); 
     border-radius: 2px;
     color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+}
+#flex-container-header {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#list-link-header {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .test {
     flex-direction: column;
