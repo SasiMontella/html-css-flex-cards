@@ -5,7 +5,11 @@
     font-family: 'Fredoka', sans-serif;
 }
 .fz{
-    font-size: 35px;
+    font-size: 40px;
+}
+.dim{
+    margin: 0 auto;
+    width: 85%;
 }
 /* colori*/
 .bg-card{
@@ -15,7 +19,7 @@
     color: #E53170;
 }
 .bg-mail{
-    background-color: #0093E7;
+    color: #0093E7;
 }
 /* classi flex*/
 .flex-container {
@@ -25,6 +29,7 @@
 }
 .flex2{
     display: flex;
+    align-items: flex-start;
     flex-wrap:wrap;
     justify-content: space-around;
     margin:  0 auto;
@@ -32,23 +37,56 @@
     width: 85%;
 }
 .photo{
+    display: flex;
     margin: 20px;
-    border: 1px solid;
     background-color: #0F0E17;
     height: 100px;
-    width: 30%;
-    
+    width: 30%;  
+    box-shadow: 3px 3px 3px 3px rgb(214, 210, 210); 
+    border-radius: 2px;
+    color: white;
 }
+.test {
+    flex-direction: column;
+  }
+  /* dimension class*/
+.test1 {
+    margin: 0 0 .5em;
+  }
 .texta{
     text-align: center;
 }
+.sp{
+    font-size: 20px;
+    font-weight:500;
+}
 .p-20{
-    padding: 20px;
+    padding: 30px;
 }
 .m-20{
-    margin: 20px;
+    margin: 10px;
 }
 .dp{
     height: 100px;
     width: 100px;
+    margin-right: 1em;
+}
+.size{
+    margin: 60px 60px;
+}
+/* order class*/
+.marco{
+    order: -1;
+}
+.giorgio{
+    order: 1;
+}
+.marta{
+    order: 2;
+}
+.robert{
+    order: 3;
+}
+.dany{
+    order: 4;
 }
